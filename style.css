@@ -80,11 +80,10 @@ main {
 }
 
 .speaker-bar {
-    height: 30px;
+    height: 20px;
     width: 180px;
-    background-color:  #0081c7;
+    background-image: linear-gradient(#0081c9, #0180c5);
     border-radius: 30px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     position: absolute;
     top: 6px;
 }
