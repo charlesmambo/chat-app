@@ -58,6 +58,10 @@ main {
     width: 25vw;
     min-width: 350px;
     padding: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 .mobile-sub-container {
@@ -75,14 +79,27 @@ main {
     padding: 15px 20px;
 }
 
+.speaker-bar {
+    height: 30px;
+    width: 180px;
+    background-color:  #0081c7;
+    border-radius: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: absolute;
+    top: 6px;
+}
+
 .header-profile, .profile-img-name {
     align-items: center;
     display: flex;
     gap: 15px;
     color: hsl(0, 0%, 100%);
 }
+ 
 .header-profile {
     justify-content: space-between;
+    gap: 45px;
+
 }
 .header-profile img {
     border-radius: 50%;
